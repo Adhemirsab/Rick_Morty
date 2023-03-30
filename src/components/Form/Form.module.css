@@ -1,0 +1,128 @@
+.container {
+    background: linear-gradient(to right, rgb(34, 197, 94), rgb(21, 128, 61)) ;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerForm {
+    min-width: 20em;
+    height: 92%;
+    /* background-color: #282A3A ; */
+    background-color: #282A3A ;
+    border-radius: 1.6em;
+   
+}
+.containerFormPoster {
+    background-image: url(../../assets/este\ es.png);
+    background-position: center;
+   background-size: contain;
+    background-repeat: no-repeat;
+    
+    height: 35%;
+    background-color: white;
+    border-radius: 1.6em 1.6em 0 0;
+    background-color: #282A3A ;
+    
+}
+.containerFormLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 2em;
+    color: aliceblue;
+}
+
+.containerFormLogin h1 {
+    margin: .3em 0 .3em 0;
+}
+.containerFormLogin h5 {
+    margin: 0;
+}
+
+/* Estelizando los inputs */
+.inputWrapper {
+    position: relative;
+    width: 271px; 
+ }
+
+ .inputWrapperUser {
+    box-sizing: border-box;
+    color: #191919;
+    padding: 15px 15px 15px 35px;
+    width: 100%;
+    border-radius: 1em;
+    outline: none;
+    margin: 1em 0 ;
+    
+
+ }
+
+
+ .inputWrapperPassword{
+    box-sizing: border-box;
+    color: #191919;
+    padding: 15px 15px 15px 35px;
+    width: 100%;
+    border-radius: 1em;
+    outline: none;
+    margin: 1em 0
+    
+}
+
+ .inpuIconUser {
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    
+ }
+
+
+
+.inpuIconPassword{
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: unset;
+    right: 12px;
+   
+}
+
+.containerButton {
+    width: 60%;
+    height: 3.5em;
+    border-radius: 1.5em;
+    background-color: #03C988 ;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    color: #282A3A;
+}
+.containerButton:hover {
+    background: linear-gradient(to right, rgb(187, 247, 208), rgb(74, 222, 128), rgb(34, 197, 94));
+
+}
+
+p {
+    color: #03C988;
+    margin-top: 0.5em;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.bottom {
+    color: aliceblue;;
+}
+span {
+    color: #03C988;
+    font-weight: bold;
+}
